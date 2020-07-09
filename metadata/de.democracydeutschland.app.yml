@@ -169,6 +169,11 @@ Builds:
       - node_modules/react-native-keychain/android/build.gradle
       - node_modules/react-native-pdf/example/android/build.gradle
       - node_modules/react-native-reanimated/android/build.gradle
+      # ignore ERROR: Found unknown maven repo '(' at packages/mobile-ui/android/build.gradle
+      - packages/mobile-ui/android/build.gradle
+      # ignore ERROR: Found unknown maven repo '(' at packages/mobile-app/android/build.gradle
+      - packages/mobile-app/android/build.gradle
+
 
 
 MaintainerNotes: |-
