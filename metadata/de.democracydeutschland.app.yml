@@ -163,6 +163,7 @@ Builds:
       - node_modules/
     scanignore:
       - node_modules/react-native-permissions/android/build.gradle
+      - node_modules/react-native-device-info/android/build.gradle
 
 
 MaintainerNotes: |-
