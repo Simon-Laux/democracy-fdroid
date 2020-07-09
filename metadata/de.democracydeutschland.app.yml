@@ -125,8 +125,8 @@ Builds:
     init:
       - ln -r -s fastlane ../../../fastlane
       - yarn install
-    patch:
-      - patch-1.3.3.patch
+      # apply the patch wich is inside of the client repo
+      - patch < fdroidPatch.patch
     gradle:
       - master
     output: app/build/outputs/apk/master/release/app-master-release-unsigned.apk
