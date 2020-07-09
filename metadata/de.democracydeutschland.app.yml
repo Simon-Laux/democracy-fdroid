@@ -167,6 +167,7 @@ Builds:
       - node_modules/react-native-device-info/android/build.gradle
       - node_modules/react-native-keychain/android/build.gradle
       - node_modules/react-native-pdf/example/android/build.gradle
+      - node_modules/react-native-reanimated/android/build.gradle
 
 
 MaintainerNotes: |-
