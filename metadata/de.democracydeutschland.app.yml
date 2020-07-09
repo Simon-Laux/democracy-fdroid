@@ -161,6 +161,8 @@ Builds:
       - truncate -s 0 ../../../node_modules/@react-native-community/cli/build/commands/server/external/xsel
     scandelete:
       - node_modules/
+    scanignore:
+      - node_modules/react-native-permissions/android/build.gradle
 
 
 MaintainerNotes: |-
