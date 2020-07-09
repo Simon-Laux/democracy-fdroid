@@ -162,9 +162,11 @@ Builds:
     scandelete:
       - node_modules/
     scanignore:
+      # workaround for https://gitlab.com/fdroid/fdroidserver/-/issues/759
       - node_modules/react-native-permissions/android/build.gradle
       - node_modules/react-native-device-info/android/build.gradle
       - node_modules/react-native-keychain/android/build.gradle
+      - node_modules/react-native-pdf/example/android/build.gradle
 
 
 MaintainerNotes: |-
