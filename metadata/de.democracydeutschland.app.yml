@@ -146,6 +146,7 @@ Builds:
       - node_modules/react-native-sha256/.vscode/ipch/439fa8c14c5b3f1a/mmap_address.bin
       - node_modules/@sentry/cli/sentry-cli
       - node_modules/hermes-engine
+      - node_modules/detox
     prebuild:
       - echo -e "GRAPHQL_URL=https://api.democracy-app.de/\nPHONE_NUMBER=+4917647040213\nGITHUB_URL=https://github.com/demokratie-live/democracy-client\nCONTACT_EMAIL=prototyping@democracy-deutschland.de"
         >> ../.env
