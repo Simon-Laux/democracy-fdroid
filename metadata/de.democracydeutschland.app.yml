@@ -113,7 +113,7 @@ Builds:
 
   - versionName: 1.3.3
     versionCode: 103675
-    commit: 8e86ee89e415ddd726fffec81421e2dcb8c1f30f
+    commit: 1400d96e4c6056deb8ae74b2dfdf68acaa1a612b
     subdir: packages/mobile-app/android/
     sudo:
       - curl -Lo node.tar.xz https://nodejs.org/dist/v12.16.3/node-v12.16.3-linux-x64.tar.xz
@@ -127,7 +127,7 @@ Builds:
       - yarn install
       # apply the patch which is inside of the client repo
       - cd ../../../
-      - patch < fdroidPatch.patch
+      - git apply patches/fdroid.patch
       - cd -
     gradle:
       - master
